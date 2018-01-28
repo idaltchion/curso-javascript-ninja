@@ -22,13 +22,13 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function setValor(num1) {
-	y = num1;
-	console.log("O valor da variável agora é " + y);
+function setValor() {
+	y = 66;
+	return "O valor da variável agora é " + y;
 }
 
 // Invoque a função criada acima.
-setValor(66);
+setValor();
 
 // Qual o retorno da função? (Use comentários de bloco).
 /*
