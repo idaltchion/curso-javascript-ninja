@@ -50,11 +50,11 @@ function showTeamPosition(posicao) {
 Escolha 4 times do campeonato selecionado e mostre a posição dele, usando a
 função acima. Entre esses 4, adicione 1 que não esteja entre os 5 primeiros.
 */
-showTeamPosition(3); //O time que está em 3º lugar é o Coritiba.
-showTeamPosition(5); //O time que está em 5º lugar é o Paraná Clube.
-showTeamPosition(1); //O time que está em 1º lugar é o Foz do Iguaçu.
-showTeamPosition(4); //O time que está em 4º lugar é o Cascavel.
-showTeamPosition(10); //Não temos a informação do time que está nessa posição.
+console.log(showTeamPosition(3)); //O time que está em 3º lugar é o Coritiba.
+console.log(showTeamPosition(5)); //O time que está em 5º lugar é o Paraná Clube.
+console.log(showTeamPosition(1)); //O time que está em 1º lugar é o Foz do Iguaçu.
+console.log(showTeamPosition(4)); //O time que está em 4º lugar é o Cascavel.
+console.log(showTeamPosition(10)); //Não temos a informação do time que está nessa posição.
 
 /*
 Mostre os números de 20 a 30 no console (inclusive o 30), usando a estrutura de
@@ -105,11 +105,11 @@ function convertoToHex(cor) {
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
-convertoToHex("blue"); //O hexadecimal para a cor blue é #0000FF.
-convertoToHex("white"); //Não temos o equivalente hexadecimal para white
-convertoToHex("red"); //O hexadecimal para a cor red é #FF0000.
-convertoToHex("green"); //O hexadecimal para a cor green é #008000.
-convertoToHex("black"); //Não temos o equivalente hexadecimal para black
-convertoToHex("yellow"); //O hexadecimal para a cor yellow é #FFFF00.
-convertoToHex("grey"); //Não temos o equivalente hexadecimal para grey
-convertoToHex("orange"); //O hexadecimal para a cor orange é #FFA500.
+console.log(convertoToHex("blue")); //O hexadecimal para a cor blue é #0000FF.
+console.log(convertoToHex("white")); //Não temos o equivalente hexadecimal para white
+console.log(convertoToHex("red")); //O hexadecimal para a cor red é #FF0000.
+console.log(convertoToHex("green")); //O hexadecimal para a cor green é #008000.
+console.log(convertoToHex("black")); //Não temos o equivalente hexadecimal para black
+console.log(convertoToHex("yellow")); //O hexadecimal para a cor yellow é #FFFF00.
+console.log(convertoToHex("grey")); //Não temos o equivalente hexadecimal para grey
+console.log(convertoToHex("orange")); //O hexadecimal para a cor orange é #FFA500.
