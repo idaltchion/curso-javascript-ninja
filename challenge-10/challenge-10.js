@@ -26,11 +26,11 @@
   propriedade, usando os valores passados por parâmetro.
   */
   var operation = {
-    '+': function(number1, number2) { return number1 + number2},
-    '-': function(number1, number2) { return number1 - number2},
-    '*': function(number1, number2) { return number1 * number2},
-    '/': function(number1, number2) { return number1 / number2},
-    '%': function(number1, number2) { return number1 % number2}
+    '+': function(number1, number2) { return number1 + number2;},
+    '-': function(number1, number2) { return number1 - number2;},
+    '*': function(number1, number2) { return number1 * number2;},
+    '/': function(number1, number2) { return number1 / number2;},
+    '%': function(number1, number2) { return number1 % number2;}
   };
 
   /*
